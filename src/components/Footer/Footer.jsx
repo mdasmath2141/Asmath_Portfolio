@@ -27,7 +27,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/md-asmath-shaikh-697a961a9/" target="_blank" rel="noreferrer">
           <Linkedin color="white" size={"3rem"} />
         </a>
-        <a href="https://twitter.com/Miltonshaikh1" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/Miltonshaikh1" target="_blank" rel="noreferrer" key="twitter">
           <Twitter color="white" size={"3rem"} />
         </a>
         </div>
