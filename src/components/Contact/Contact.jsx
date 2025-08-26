@@ -1,4 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
+
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
@@ -15,7 +16,7 @@ const Contact = () => {
         "service_d0afnfh",
         "template_17arntj",
         form.current,
-        "DeixpXAMB17T_esWp"
+        "RzH0RJ5SB4mxU93mi"
       )
       .then(
         (result) => {
