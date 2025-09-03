@@ -36,8 +36,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>MD ASMATH SHAIKH</span>
           <span>
-            I am a student of B.Tech in CSE at Aliah university.Started my Career at Frontend Developer in web designing
-            and development and also App Development using React Native Framework
+            I am a graduated student of B.Tech in CSE from Aliah university. Started my Professional Career as a Frontend Developer in web designing
+            and development using ReactJS and also App Development using React Native Framework ✅
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -54,12 +54,13 @@ const Intro = () => {
         <a href="https://www.instagram.com/milton.shaikh.79/" target="_blank" rel="noreferrer">
           <img src={Instagram} alt="" />
         </a>
-        <a href="https://x.com/mdasmath2141" target="_blank" rel="noreferrer" key="twitter">
-            <Twitter color="#f89c1c" size={"5rem"} />
-        </a>
          <a href="https://www.facebook.com/milton.shaikh.79" target="_blank" rel="noreferrer" key="twitter">
             <Facebook color="#f89c1c" size={"5rem"} />
         </a>
+        <a href="https://x.com/mdasmath2141" target="_blank" rel="noreferrer" key="twitter">
+            <Twitter color="#f89c1c" size={"5rem"} />
+        </a>
+        
         
       
         </div>
