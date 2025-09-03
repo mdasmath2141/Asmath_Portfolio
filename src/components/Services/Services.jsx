@@ -26,7 +26,7 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Quality and skills</span>
-        <spane>
+        <span>
         It is an initial stage of my career . According to me, Creativity is
         <br/>
          doing things in a different way to make them easier and more efficient .
@@ -36,7 +36,7 @@ const Services = () => {
            I would like to enrich my professional skill
            <br/>
            and will contribute myself for growth anywhere.
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

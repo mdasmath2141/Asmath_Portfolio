@@ -8,6 +8,7 @@
   /* darkmode */
   color: var(--black);
 }
+
 .achievement{
     display: flex;
     flex-direction: column;    

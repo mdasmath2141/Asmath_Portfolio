@@ -11,6 +11,9 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 
+import Twitter from "@iconscout/react-unicons/icons/uil-twitter";
+import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+
 import Instagram from "../../img/instagram.png";
 
 import { themeContext } from "../../Context";
@@ -33,8 +36,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>MD ASMATH SHAIKH</span>
           <span>
-            A student of B.Tech in CSE at Aliah university. Frontend Developer in web designing
-            and development
+            I am a student of B.Tech in CSE at Aliah university.Started my Career at Frontend Developer in web designing
+            and development and also App Development using React Native Framework
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -48,9 +51,16 @@ const Intro = () => {
         <a href="https://www.linkedin.com/in/md-asmath-shaikh-697a961a9/" target="_blank" rel="noreferrer">
           <img src={LinkedIn} alt="" />
         </a>
-        <a href="https://www.instagram.com/rdx_milton21/" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/milton.shaikh.79/" target="_blank" rel="noreferrer">
           <img src={Instagram} alt="" />
         </a>
+        <a href="https://x.com/mdasmath2141" target="_blank" rel="noreferrer" key="twitter">
+            <Twitter color="#f89c1c" size={"5rem"} />
+        </a>
+         <a href="https://www.facebook.com/milton.shaikh.79" target="_blank" rel="noreferrer" key="twitter">
+            <Facebook color="#f89c1c" size={"5rem"} />
+        </a>
+        
       
         </div>
       </div>
